@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "netherlands",
+  "straightLineMode": {
+    "value": {
+      "enabled": true,
+      "normalGripActivations": [
+        {
+          "label": "A1",
+          "description": "20m after T14"
+        },
+        {
+          "label": "A2",
+          "description": "50m after T10"
+        }
+      ],
+      "lowGripActivations": [
+        {
+          "label": "A1",
+          "description": "80m after T14"
+        },
+        {
+          "label": "A2",
+          "description": "120m after T10"
+        }
+      ]
+    },
+    "sourceIds": [
+      "fia_map"
+    ],
+    "confidence": "official_verified"
+  },
+  "overtakeMode": {
+    "value": {
+      "detection": "10m before T13",
+      "activation": "45m after T14-entry"
+    },
+    "sourceIds": [
+      "fia_map"
+    ],
+    "confidence": "official_verified"
+  },
+  "drsLegacy": null
+}

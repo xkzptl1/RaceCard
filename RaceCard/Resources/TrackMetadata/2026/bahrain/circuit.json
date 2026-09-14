@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "bahrain",
+  "identity": {
+    "value": {
+      "meetingKey": 1308,
+      "meetingName": "Bahrain Grand Prix",
+      "circuitName": "Kuala Lumpur",
+      "circuitKey": 12,
+      "dateStart": "2026-10-02T04:30:00+00:00",
+      "dateEnd": "2026-10-04T09:00:00+00:00"
+    },
+    "sourceIds": [
+      "openf1_meeting"
+    ],
+    "confidence": "official_verified"
+  },
+  "circuitLengthKm": {
+    "value": 5.543,
+    "sourceIds": [
+      "f1_event"
+    ],
+    "confidence": "official_verified"
+  },
+  "raceLaps": {
+    "value": 56,
+    "sourceIds": [
+      "f1_event"
+    ],
+    "confidence": "official_verified"
+  },
+  "sectorLengthsKm": null,
+  "startFinish": null,
+  "pitEntry": null,
+  "pitExit": null
+}

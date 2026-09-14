@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "monaco",
+  "referencePitLossSeconds": {
+    "value": 21,
+    "sourceIds": [
+      "somersf1"
+    ],
+    "confidence": "secondary_source"
+  },
+  "pitSpeedLimitKph": {
+    "value": 60,
+    "sourceIds": [
+      "fia_race_notes"
+    ],
+    "confidence": "official_verified"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "singapore",
+  "dryCompounds": {
+    "value": [
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "sourceIds": [
+      "pirelli_allocation"
+    ],
+    "confidence": "official_verified"
+  },
+  "minimumPressures": null,
+  "revisions": []
+}

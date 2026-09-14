@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "netherlands",
+  "dryCompounds": {
+    "value": [
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "sourceIds": [
+      "fia_pirelli_1"
+    ],
+    "confidence": "official_verified"
+  },
+  "minimumPressures": {
+    "value": {
+      "frontPsi": 26.0,
+      "rearPsi": 25.0
+    },
+    "sourceIds": [
+      "fia_pirelli_1"
+    ],
+    "confidence": "official_verified"
+  },
+  "revisions": [
+    {
+      "value": {
+        "frontPsi": 26.0,
+        "rearPsi": 25.0,
+        "publishedAtLocal": "2026-08-19T17:55:00",
+        "effectiveFrom": null
+      },
+      "sourceIds": [
+        "fia_pirelli_1"
+      ],
+      "confidence": "official_verified"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "great-britain",
+  "raceRechargeLimit": {
+    "value": 8.0,
+    "sourceIds": [
+      "fia_power_unit"
+    ],
+    "confidence": "official_verified"
+  },
+  "overtakeRechargeLimit": {
+    "value": 8.5,
+    "sourceIds": [
+      "fia_power_unit"
+    ],
+    "confidence": "official_verified"
+  },
+  "qualifyingRechargeLimit": {
+    "value": 6.5,
+    "sourceIds": [
+      "fia_power_unit"
+    ],
+    "confidence": "official_verified"
+  },
+  "units": "MJ"
+}

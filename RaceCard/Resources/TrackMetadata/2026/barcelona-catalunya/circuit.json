@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "barcelona-catalunya",
+  "identity": {
+    "value": {
+      "meetingKey": 1287,
+      "meetingName": "Barcelona Grand Prix",
+      "circuitName": "Catalunya",
+      "circuitKey": 15,
+      "dateStart": "2026-06-12T11:30:00+00:00",
+      "dateEnd": "2026-06-14T15:00:00+00:00"
+    },
+    "sourceIds": [
+      "openf1_meeting"
+    ],
+    "confidence": "official_verified"
+  },
+  "circuitLengthKm": {
+    "value": 4.657,
+    "sourceIds": [
+      "f1_event"
+    ],
+    "confidence": "official_verified"
+  },
+  "raceLaps": {
+    "value": 66,
+    "sourceIds": [
+      "f1_event"
+    ],
+    "confidence": "official_verified"
+  },
+  "sectorLengthsKm": {
+    "value": [
+      1.619,
+      1.765,
+      1.273
+    ],
+    "sourceIds": [
+      "fia_map"
+    ],
+    "confidence": "official_verified"
+  },
+  "startFinish": null,
+  "pitEntry": null,
+  "pitExit": null
+}

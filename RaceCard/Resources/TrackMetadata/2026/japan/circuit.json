@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "japan",
+  "identity": {
+    "value": {
+      "meetingKey": 1281,
+      "meetingName": "Japanese Grand Prix",
+      "circuitName": "Suzuka",
+      "circuitKey": 46,
+      "dateStart": "2026-03-27T02:30:00+00:00",
+      "dateEnd": "2026-03-29T07:00:00+00:00"
+    },
+    "sourceIds": [
+      "openf1_meeting"
+    ],
+    "confidence": "official_verified"
+  },
+  "circuitLengthKm": {
+    "value": 5.807,
+    "sourceIds": [
+      "f1_event"
+    ],
+    "confidence": "official_verified"
+  },
+  "raceLaps": {
+    "value": 53,
+    "sourceIds": [
+      "f1_event"
+    ],
+    "confidence": "official_verified"
+  },
+  "sectorLengthsKm": {
+    "value": [
+      2.184,
+      2.526,
+      1.097
+    ],
+    "sourceIds": [
+      "fia_map"
+    ],
+    "confidence": "official_verified"
+  },
+  "startFinish": null,
+  "pitEntry": null,
+  "pitExit": null
+}

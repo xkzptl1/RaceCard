@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "united-states",
+  "asOf": "2026-09-11",
+  "sources": [
+    {
+      "id": "f1_event",
+      "tier": 1,
+      "publisher": "Formula 1",
+      "title": "2026 United States Grand Prix",
+      "url": "https://www.formula1.com/en/racing/2026/united-states",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "8722ee52d8bbf06bb977d735d0fdab12a78c6b0d3ea80bdc232954a69962074d",
+      "supports": [
+        "circuit.circuitLengthKm",
+        "circuit.raceLaps"
+      ]
+    },
+    {
+      "id": "openf1_meeting",
+      "tier": 1,
+      "publisher": "OpenF1",
+      "title": "2026 meeting identity",
+      "url": "https://api.openf1.org/v1/meetings?year=2026",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "aebdb5567e55045c0d1c14c322dc8a4d287924b05d10850cbd17922daf522198",
+      "supports": [
+        "circuit.identity"
+      ]
+    },
+    {
+      "id": "f1_outline",
+      "tier": 1,
+      "publisher": "Formula 1",
+      "title": "2026 official circuit outline",
+      "url": "https://media.formula1.com/image/upload/c_lfill,w_3392/v1740000001/common/f1/2026/track/2026trackaustinblackoutline.svg",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "3c0a75372b3223daeb6dec1558e9b4c16bd4860872f78ab90e5b076d0ad536c2",
+      "supports": [
+        "circuit.geometry"
+      ]
+    }
+  ],
+  "notes": [
+    "Weekend FIA technical documents were not published in the 2026 document index at research time. No prior-year pressures, energy, zones or pit limits were substituted."
+  ],
+  "researchChecks": [
+    {
+      "publisher": "SomersF1",
+      "query": "site:somersf1.substack.com 2026 United States Grand Prix tech journal document cache",
+      "result": "No relevant accessible indexed event journal located as of research date; no facts inferred.",
+      "checkedAt": "2026-09-11"
+    },
+    {
+      "publisher": "FIA",
+      "url": "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14/season/season-2026-2072",
+      "result": "Event documents not yet in current season index",
+      "checkedAt": "2026-09-11"
+    },
+    {
+      "publisher": "Formula 1",
+      "url": "https://www.formula1.com/en/racing/2026/united-states",
+      "result": "Event identity, circuit length and race laps inspected",
+      "checkedAt": "2026-09-11"
+    }
+  ]
+}

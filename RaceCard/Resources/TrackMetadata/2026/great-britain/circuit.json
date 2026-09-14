@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "great-britain",
+  "identity": {
+    "value": {
+      "meetingKey": 1289,
+      "meetingName": "British Grand Prix",
+      "circuitName": "Silverstone",
+      "circuitKey": 2,
+      "dateStart": "2026-07-03T11:30:00+00:00",
+      "dateEnd": "2026-07-05T16:00:00+00:00"
+    },
+    "sourceIds": [
+      "openf1_meeting"
+    ],
+    "confidence": "official_verified"
+  },
+  "circuitLengthKm": {
+    "value": 5.891,
+    "sourceIds": [
+      "f1_event"
+    ],
+    "confidence": "official_verified"
+  },
+  "raceLaps": {
+    "value": 52,
+    "sourceIds": [
+      "f1_event"
+    ],
+    "confidence": "official_verified"
+  },
+  "sectorLengthsKm": {
+    "value": [
+      1.823,
+      2.464,
+      1.604
+    ],
+    "sourceIds": [
+      "fia_map"
+    ],
+    "confidence": "official_verified"
+  },
+  "startFinish": null,
+  "pitEntry": null,
+  "pitExit": null
+}

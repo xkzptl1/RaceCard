@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "united-arab-emirates",
+  "asOf": "2026-09-11",
+  "sources": [
+    {
+      "id": "f1_event",
+      "tier": 1,
+      "publisher": "Formula 1",
+      "title": "2026 Abu Dhabi Grand Prix",
+      "url": "https://www.formula1.com/en/racing/2026/united-arab-emirates",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "2e0bc014624a870eac2732cf34b16a3825729e2a17c375382ad863122ab32b4d",
+      "supports": [
+        "circuit.circuitLengthKm",
+        "circuit.raceLaps"
+      ]
+    },
+    {
+      "id": "openf1_meeting",
+      "tier": 1,
+      "publisher": "OpenF1",
+      "title": "2026 meeting identity",
+      "url": "https://api.openf1.org/v1/meetings?year=2026",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "aebdb5567e55045c0d1c14c322dc8a4d287924b05d10850cbd17922daf522198",
+      "supports": [
+        "circuit.identity"
+      ]
+    },
+    {
+      "id": "f1_outline",
+      "tier": 1,
+      "publisher": "Formula 1",
+      "title": "2026 official circuit outline",
+      "url": "https://media.formula1.com/image/upload/c_lfill,w_3392/v1740000001/common/f1/2026/track/2026trackyasmarinacircuitblackoutline.svg",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "52480a45a6d02e8375f79ce035dca8280d11daf89c20b14961cdc86c358a3af1",
+      "supports": [
+        "circuit.geometry"
+      ]
+    }
+  ],
+  "notes": [
+    "Weekend FIA technical documents were not published in the 2026 document index at research time. No prior-year pressures, energy, zones or pit limits were substituted."
+  ],
+  "researchChecks": [
+    {
+      "publisher": "SomersF1",
+      "query": "site:somersf1.substack.com 2026 Abu Dhabi Grand Prix tech journal document cache",
+      "result": "No relevant accessible indexed event journal located as of research date; no facts inferred.",
+      "checkedAt": "2026-09-11"
+    },
+    {
+      "publisher": "FIA",
+      "url": "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14/season/season-2026-2072",
+      "result": "Event documents not yet in current season index",
+      "checkedAt": "2026-09-11"
+    },
+    {
+      "publisher": "Formula 1",
+      "url": "https://www.formula1.com/en/racing/2026/united-arab-emirates",
+      "result": "Event identity, circuit length and race laps inspected",
+      "checkedAt": "2026-09-11"
+    }
+  ]
+}

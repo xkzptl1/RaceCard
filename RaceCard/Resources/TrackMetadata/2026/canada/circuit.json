@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "canada",
+  "identity": {
+    "value": {
+      "meetingKey": 1285,
+      "meetingName": "Canadian Grand Prix",
+      "circuitName": "Montreal",
+      "circuitKey": 23,
+      "dateStart": "2026-05-22T16:30:00+00:00",
+      "dateEnd": "2026-05-24T22:00:00+00:00"
+    },
+    "sourceIds": [
+      "openf1_meeting"
+    ],
+    "confidence": "official_verified"
+  },
+  "circuitLengthKm": {
+    "value": 4.361,
+    "sourceIds": [
+      "f1_event"
+    ],
+    "confidence": "official_verified"
+  },
+  "raceLaps": {
+    "value": 70,
+    "sourceIds": [
+      "f1_event"
+    ],
+    "confidence": "official_verified"
+  },
+  "sectorLengthsKm": {
+    "value": [
+      1.092,
+      1.396,
+      1.873
+    ],
+    "sourceIds": [
+      "fia_map"
+    ],
+    "confidence": "official_verified"
+  },
+  "startFinish": null,
+  "pitEntry": null,
+  "pitExit": null
+}

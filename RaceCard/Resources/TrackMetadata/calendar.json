@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "asOf": "2026-09-11",
+  "sources": [
+    {
+      "url": "https://www.formula1.com/en/racing/2026",
+      "sha256": "f59da6de215d45b1942373c762266db86a80d2e05b025f9baaf831d40e6d329d"
+    },
+    {
+      "url": "https://api.openf1.org/v1/meetings?year=2026",
+      "sha256": "aebdb5567e55045c0d1c14c322dc8a4d287924b05d10850cbd17922daf522198"
+    }
+  ],
+  "events": [
+    {
+      "eventKey": "australia",
+      "meetingKey": 1279,
+      "meetingName": "Australian Grand Prix",
+      "circuitName": "Melbourne",
+      "circuitKey": 10,
+      "dateStart": "2026-03-06T01:30:00+00:00",
+      "dateEnd": "2026-03-08T06:00:00+00:00"
+    },
+    {
+      "eventKey": "china",
+      "meetingKey": 1280,
+      "meetingName": "Chinese Grand Prix",
+      "circuitName": "Shanghai",
+      "circuitKey": 49,
+      "dateStart": "2026-03-13T03:30:00+00:00",
+      "dateEnd": "2026-03-15T09:00:00+00:00"
+    },
+    {
+      "eventKey": "japan",
+      "meetingKey": 1281,
+      "meetingName": "Japanese Grand Prix",
+      "circuitName": "Suzuka",
+      "circuitKey": 46,
+      "dateStart": "2026-03-27T02:30:00+00:00",
+      "dateEnd": "2026-03-29T07:00:00+00:00"
+    },
+    {
+      "eventKey": "miami",
+      "meetingKey": 1284,
+      "meetingName": "Miami Grand Prix",
+      "circuitName": "Miami",
+      "circuitKey": 151,
+      "dateStart": "2026-05-01T16:00:00+00:00",
+      "dateEnd": "2026-05-03T19:00:00+00:00"
+    },
+    {
+      "eventKey": "canada",
+      "meetingKey": 1285,
+      "meetingName": "Canadian Grand Prix",
+      "circuitName": "Montreal",
+      "circuitKey": 23,
+      "dateStart": "2026-05-22T16:30:00+00:00",
+      "dateEnd": "2026-05-24T22:00:00+00:00"
+    },
+    {
+      "eventKey": "monaco",
+      "meetingKey": 1286,
+      "meetingName": "Monaco Grand Prix",
+      "circuitName": "Monte Carlo",
+      "circuitKey": 22,
+      "dateStart": "2026-06-05T11:30:00+00:00",
+      "dateEnd": "2026-06-07T15:00:00+00:00"
+    },
+    {
+      "eventKey": "barcelona-catalunya",
+      "meetingKey": 1287,
+      "meetingName": "Barcelona Grand Prix",
+      "circuitName": "Catalunya",
+      "circuitKey": 15,
+      "dateStart": "2026-06-12T11:30:00+00:00",
+      "dateEnd": "2026-06-14T15:00:00+00:00"
+    },
+    {
+      "eventKey": "austria",
+      "meetingKey": 1288,
+      "meetingName": "Austrian Grand Prix",
+      "circuitName": "Spielberg",
+      "circuitKey": 19,
+      "dateStart": "2026-06-26T11:30:00+00:00",
+      "dateEnd": "2026-06-28T15:00:00+00:00"
+    },
+    {
+      "eventKey": "great-britain",
+      "meetingKey": 1289,
+      "meetingName": "British Grand Prix",
+      "circuitName": "Silverstone",
+      "circuitKey": 2,
+      "dateStart": "2026-07-03T11:30:00+00:00",
+      "dateEnd": "2026-07-05T16:00:00+00:00"
+    },
+    {
+      "eventKey": "belgium",
+      "meetingKey": 1290,
+      "meetingName": "Belgian Grand Prix",
+      "circuitName": "Spa-Francorchamps",
+      "circuitKey": 7,
+      "dateStart": "2026-07-17T11:30:00+00:00",
+      "dateEnd": "2026-07-19T15:00:00+00:00"
+    },
+    {
+      "eventKey": "hungary",
+      "meetingKey": 1291,
+      "meetingName": "Hungarian Grand Prix",
+      "circuitName": "Hungaroring",
+      "circuitKey": 4,
+      "dateStart": "2026-07-24T11:30:00+00:00",
+      "dateEnd": "2026-07-26T15:00:00+00:00"
+    },
+    {
+      "eventKey": "netherlands",
+      "meetingKey": 1292,
+      "meetingName": "Dutch Grand Prix",
+      "circuitName": "Zandvoort",
+      "circuitKey": 55,
+      "dateStart": "2026-08-21T10:30:00+00:00",
+      "dateEnd": "2026-08-23T15:00:00+00:00"
+    },
+    {
+      "eventKey": "italy",
+      "meetingKey": 1293,
+      "meetingName": "Italian Grand Prix",
+      "circuitName": "Monza",
+      "circuitKey": 39,
+      "dateStart": "2026-09-04T10:30:00+00:00",
+      "dateEnd": "2026-09-06T15:00:00+00:00"
+    },
+    {
+      "eventKey": "spain",
+      "meetingKey": 1294,
+      "meetingName": "Spanish Grand Prix",
+      "circuitName": "Madring",
+      "circuitKey": 153,
+      "dateStart": "2026-09-11T11:30:00+00:00",
+      "dateEnd": "2026-09-13T15:00:00+00:00"
+    },
+    {
+      "eventKey": "azerbaijan",
+      "meetingKey": 1295,
+      "meetingName": "Azerbaijan Grand Prix",
+      "circuitName": "Baku",
+      "circuitKey": 144,
+      "dateStart": "2026-09-24T08:30:00+00:00",
+      "dateEnd": "2026-09-26T13:00:00+00:00"
+    },
+    {
+      "eventKey": "bahrain",
+      "meetingKey": 1308,
+      "meetingName": "Bahrain Grand Prix",
+      "circuitName": "Kuala Lumpur",
+      "circuitKey": 12,
+      "dateStart": "2026-10-02T04:30:00+00:00",
+      "dateEnd": "2026-10-04T09:00:00+00:00"
+    },
+    {
+      "eventKey": "singapore",
+      "meetingKey": 1296,
+      "meetingName": "Singapore Grand Prix",
+      "circuitName": "Singapore",
+      "circuitKey": 61,
+      "dateStart": "2026-10-09T08:30:00+00:00",
+      "dateEnd": "2026-10-11T14:00:00+00:00"
+    },
+    {
+      "eventKey": "united-states",
+      "meetingKey": 1297,
+      "meetingName": "United States Grand Prix",
+      "circuitName": "Austin",
+      "circuitKey": 9,
+      "dateStart": "2026-10-23T17:30:00+00:00",
+      "dateEnd": "2026-10-25T22:00:00+00:00"
+    },
+    {
+      "eventKey": "mexico",
+      "meetingKey": 1298,
+      "meetingName": "Mexico City Grand Prix",
+      "circuitName": "Mexico City",
+      "circuitKey": 65,
+      "dateStart": "2026-10-30T18:30:00+00:00",
+      "dateEnd": "2026-11-01T22:00:00+00:00"
+    },
+    {
+      "eventKey": "brazil",
+      "meetingKey": 1299,
+      "meetingName": "São Paulo Grand Prix",
+      "circuitName": "Interlagos",
+      "circuitKey": 14,
+      "dateStart": "2026-11-06T15:30:00+00:00",
+      "dateEnd": "2026-11-08T19:00:00+00:00"
+    },
+    {
+      "eventKey": "las-vegas",
+      "meetingKey": 1300,
+      "meetingName": "Las Vegas Grand Prix",
+      "circuitName": "Las Vegas",
+      "circuitKey": 152,
+      "dateStart": "2026-11-20T00:30:00+00:00",
+      "dateEnd": "2026-11-22T06:00:00+00:00"
+    },
+    {
+      "eventKey": "qatar",
+      "meetingKey": 1301,
+      "meetingName": "Qatar Grand Prix",
+      "circuitName": "Lusail",
+      "circuitKey": 150,
+      "dateStart": "2026-11-27T13:30:00+00:00",
+      "dateEnd": "2026-11-29T18:00:00+00:00"
+    },
+    {
+      "eventKey": "united-arab-emirates",
+      "meetingKey": 1302,
+      "meetingName": "Abu Dhabi Grand Prix",
+      "circuitName": "Yas Marina Circuit",
+      "circuitKey": 70,
+      "dateStart": "2026-12-04T09:30:00+00:00",
+      "dateEnd": "2026-12-06T15:00:00+00:00"
+    }
+  ],
+  "notes": [
+    "Current official calendar has 23 events. Cancelled April Bahrain (Sakhir) and Saudi Arabia are excluded. Bahrain Grand Prix is scheduled at Sepang, 2–4 October."
+  ]
+}

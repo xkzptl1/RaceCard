@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "bahrain",
+  "dryCompounds": {
+    "value": [
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "sourceIds": [
+      "pirelli_allocation"
+    ],
+    "confidence": "official_verified"
+  },
+  "minimumPressures": null,
+  "revisions": []
+}

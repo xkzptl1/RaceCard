@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "japan",
+  "straightLineMode": {
+    "value": {
+      "enabled": true,
+      "normalGripActivations": [
+        {
+          "label": "A1",
+          "description": "Exit T18"
+        },
+        {
+          "label": "A2",
+          "description": "Exit T14"
+        }
+      ],
+      "lowGripActivations": [
+        {
+          "label": "A1",
+          "description": "100m after T18"
+        },
+        {
+          "label": "A2",
+          "description": "70m after T14"
+        }
+      ]
+    },
+    "sourceIds": [
+      "fia_map"
+    ],
+    "confidence": "official_verified"
+  },
+  "overtakeMode": {
+    "value": {
+      "detection": "Exit T17",
+      "activation": "Apex T18"
+    },
+    "sourceIds": [
+      "fia_map"
+    ],
+    "confidence": "official_verified"
+  },
+  "drsLegacy": null
+}

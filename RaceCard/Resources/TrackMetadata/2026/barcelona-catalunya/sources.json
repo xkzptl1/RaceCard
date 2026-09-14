@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "barcelona-catalunya",
+  "asOf": "2026-09-11",
+  "sources": [
+    {
+      "id": "f1_event",
+      "tier": 1,
+      "publisher": "Formula 1",
+      "title": "2026 Barcelona Grand Prix",
+      "url": "https://www.formula1.com/en/racing/2026/barcelona-catalunya",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "3c6f2767bc2dbf9ab8f7e4122bec87cf990f1c0d3687772ac1b359294ede57a0",
+      "supports": [
+        "circuit.circuitLengthKm",
+        "circuit.raceLaps"
+      ]
+    },
+    {
+      "id": "openf1_meeting",
+      "tier": 1,
+      "publisher": "OpenF1",
+      "title": "2026 meeting identity",
+      "url": "https://api.openf1.org/v1/meetings?year=2026",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "aebdb5567e55045c0d1c14c322dc8a4d287924b05d10850cbd17922daf522198",
+      "supports": [
+        "circuit.identity"
+      ]
+    },
+    {
+      "id": "somersf1",
+      "tier": 2,
+      "publisher": "SomersF1",
+      "title": "2026 Barcelona Grand Prix technical journal",
+      "url": "https://somersf1.substack.com/p/2026-barcelona-catalunya-grand-prix",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "secondary_source",
+      "sha256": null,
+      "supports": [
+        "pit.referencePitLossSeconds"
+      ]
+    },
+    {
+      "id": "fia_map",
+      "tier": 1,
+      "publisher": "FIA",
+      "title": "2026 barcelona-catalunya grand prix - competition notes - circuit map pit lane drawing and emergency exits map.pdf",
+      "url": "https://www.fia.com/system/files/decision-document/2026_barcelona-catalunya_grand_prix_-_competition_notes_-_circuit_map_pit_lane_drawing_and_emergency_exits_map.pdf",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "71e80dcbf81aef7b622d4737782409dba8dd1c87f5d8d1b02cd1c12f9be3145d",
+      "supports": [
+        "circuit.geometry",
+        "circuit.sectorLengthsKm",
+        "race_zones.straightLineMode",
+        "race_zones.overtakeMode"
+      ]
+    },
+    {
+      "id": "fia_pirelli_1",
+      "tier": 1,
+      "publisher": "FIA",
+      "title": "2026 barcelona-catalunya grand prix - competition notes - pirelli preview.pdf",
+      "url": "https://www.fia.com/system/files/decision-document/2026_barcelona-catalunya_grand_prix_-_competition_notes_-_pirelli_preview.pdf",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "19cc6ff63ece74999639e2218fb74e9f2a56bfe93bf60e2834c25f76ce619207",
+      "supports": [
+        "tyres.dryCompounds",
+        "tyres.minimumPressures",
+        "tyres.revisions"
+      ]
+    },
+    {
+      "id": "fia_pirelli_2",
+      "tier": 1,
+      "publisher": "FIA",
+      "title": "2026 barcelona-catalunya grand prix - competition notes - pirelli preview v2.pdf",
+      "url": "https://www.fia.com/system/files/decision-document/2026_barcelona-catalunya_grand_prix_-_competition_notes_-_pirelli_preview_v2.pdf",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "338c968ee2d0640f2e0a268a91729f0c2cbe0a69f7454b889d86a040c0192bd8",
+      "supports": [
+        "tyres.dryCompounds",
+        "tyres.revisions"
+      ]
+    },
+    {
+      "id": "fia_power_unit",
+      "tier": 1,
+      "publisher": "FIA",
+      "title": "2026 barcelona-catalunya grand prix - power unit information v2.pdf",
+      "url": "https://www.fia.com/system/files/decision-document/2026_barcelona-catalunya_grand_prix_-_power_unit_information_v2.pdf",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "f34ea418974dab0756f445ba9ed89ad76266131160e6ff6ea4f13e61615ac337",
+      "supports": [
+        "energy.raceRechargeLimit",
+        "energy.overtakeRechargeLimit",
+        "energy.qualifyingRechargeLimit"
+      ]
+    }
+  ],
+  "notes": [
+    "Pit loss is an approximate secondary reference, not an FIA measured pit-stop time.",
+    "Geometry uses the official PDF schematic and annotation anchors, not OpenF1 car XY. Unsupported pit/start/zone endpoint coordinates remain null; the reference map never reprojects car positions speculatively.",
+    "v2.5 informational marker anchors are FIA printed label centres in the same documented PDF transform; not inferred car coordinates. Light-panel and marshal-post numbering remain distinct from timing sectors."
+  ],
+  "researchChecks": [
+    {
+      "publisher": "SomersF1",
+      "query": "site:somersf1.substack.com 2026 Barcelona Grand Prix tech journal document cache",
+      "result": "located",
+      "checkedAt": "2026-09-11"
+    },
+    {
+      "publisher": "FIA",
+      "url": "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14/season/season-2026-2072",
+      "result": "Published event documents inspected",
+      "checkedAt": "2026-09-11"
+    },
+    {
+      "publisher": "Formula 1",
+      "url": "https://www.formula1.com/en/racing/2026/barcelona-catalunya",
+      "result": "Event identity, circuit length and race laps inspected",
+      "checkedAt": "2026-09-11"
+    }
+  ]
+}

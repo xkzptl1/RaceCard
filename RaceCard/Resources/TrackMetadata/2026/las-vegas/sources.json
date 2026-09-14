@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "las-vegas",
+  "asOf": "2026-09-11",
+  "sources": [
+    {
+      "id": "f1_event",
+      "tier": 1,
+      "publisher": "Formula 1",
+      "title": "2026 Las Vegas Grand Prix",
+      "url": "https://www.formula1.com/en/racing/2026/las-vegas",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "c1249820d3c27daea0903a80ca5654e18f45a838e6cde4772b1bfc306c183820",
+      "supports": [
+        "circuit.circuitLengthKm",
+        "circuit.raceLaps"
+      ]
+    },
+    {
+      "id": "openf1_meeting",
+      "tier": 1,
+      "publisher": "OpenF1",
+      "title": "2026 meeting identity",
+      "url": "https://api.openf1.org/v1/meetings?year=2026",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "aebdb5567e55045c0d1c14c322dc8a4d287924b05d10850cbd17922daf522198",
+      "supports": [
+        "circuit.identity"
+      ]
+    },
+    {
+      "id": "f1_outline",
+      "tier": 1,
+      "publisher": "Formula 1",
+      "title": "2026 official circuit outline",
+      "url": "https://media.formula1.com/image/upload/c_lfill,w_3392/v1740000001/common/f1/2026/track/2026tracklasvegasblackoutline.svg",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "3fbba3ec0c219505937cea480c2803188e396f0a17f4b6661404925b8c10ccea",
+      "supports": [
+        "circuit.geometry"
+      ]
+    }
+  ],
+  "notes": [
+    "Weekend FIA technical documents were not published in the 2026 document index at research time. No prior-year pressures, energy, zones or pit limits were substituted."
+  ],
+  "researchChecks": [
+    {
+      "publisher": "SomersF1",
+      "query": "site:somersf1.substack.com 2026 Las Vegas Grand Prix tech journal document cache",
+      "result": "No relevant accessible indexed event journal located as of research date; no facts inferred.",
+      "checkedAt": "2026-09-11"
+    },
+    {
+      "publisher": "FIA",
+      "url": "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14/season/season-2026-2072",
+      "result": "Event documents not yet in current season index",
+      "checkedAt": "2026-09-11"
+    },
+    {
+      "publisher": "Formula 1",
+      "url": "https://www.formula1.com/en/racing/2026/las-vegas",
+      "result": "Event identity, circuit length and race laps inspected",
+      "checkedAt": "2026-09-11"
+    }
+  ]
+}

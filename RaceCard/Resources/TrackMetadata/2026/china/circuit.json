@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "china",
+  "identity": {
+    "value": {
+      "meetingKey": 1280,
+      "meetingName": "Chinese Grand Prix",
+      "circuitName": "Shanghai",
+      "circuitKey": 49,
+      "dateStart": "2026-03-13T03:30:00+00:00",
+      "dateEnd": "2026-03-15T09:00:00+00:00"
+    },
+    "sourceIds": [
+      "openf1_meeting"
+    ],
+    "confidence": "official_verified"
+  },
+  "circuitLengthKm": {
+    "value": 5.451,
+    "sourceIds": [
+      "f1_event"
+    ],
+    "confidence": "official_verified"
+  },
+  "raceLaps": {
+    "value": 56,
+    "sourceIds": [
+      "f1_event"
+    ],
+    "confidence": "official_verified"
+  },
+  "sectorLengthsKm": {
+    "value": [
+      1.43,
+      1.569,
+      2.452
+    ],
+    "sourceIds": [
+      "fia_map"
+    ],
+    "confidence": "official_verified"
+  },
+  "startFinish": null,
+  "pitEntry": null,
+  "pitExit": null
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "belgium",
+  "straightLineMode": {
+    "value": {
+      "enabled": true,
+      "normalGripActivations": [
+        {
+          "label": "A1",
+          "description": "190m after T19"
+        },
+        {
+          "label": "A2",
+          "description": "140m after T1"
+        },
+        {
+          "label": "A3",
+          "description": "60m after T4"
+        },
+        {
+          "label": "A4",
+          "description": "140m after T15"
+        },
+        {
+          "label": "A5",
+          "description": "80m after T17"
+        }
+      ],
+      "lowGripActivations": [
+        {
+          "label": "A1",
+          "description": "240m after T19"
+        },
+        {
+          "label": "A2",
+          "description": "195m after T1"
+        },
+        {
+          "label": "A3",
+          "description": "360m after T4"
+        },
+        {
+          "label": "A4",
+          "description": "190m after T15"
+        },
+        {
+          "label": "A5",
+          "description": "110m after T17"
+        }
+      ]
+    },
+    "sourceIds": [
+      "fia_map"
+    ],
+    "confidence": "official_verified"
+  },
+  "overtakeMode": {
+    "value": {
+      "detection": "Entry T19",
+      "activation": "130m after T19"
+    },
+    "sourceIds": [
+      "fia_map"
+    ],
+    "confidence": "official_verified"
+  },
+  "drsLegacy": null
+}

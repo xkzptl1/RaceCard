@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "united-arab-emirates",
+  "identity": {
+    "value": {
+      "meetingKey": 1302,
+      "meetingName": "Abu Dhabi Grand Prix",
+      "circuitName": "Yas Marina Circuit",
+      "circuitKey": 70,
+      "dateStart": "2026-12-04T09:30:00+00:00",
+      "dateEnd": "2026-12-06T15:00:00+00:00"
+    },
+    "sourceIds": [
+      "openf1_meeting"
+    ],
+    "confidence": "official_verified"
+  },
+  "circuitLengthKm": {
+    "value": 5.281,
+    "sourceIds": [
+      "f1_event"
+    ],
+    "confidence": "official_verified"
+  },
+  "raceLaps": {
+    "value": 58,
+    "sourceIds": [
+      "f1_event"
+    ],
+    "confidence": "official_verified"
+  },
+  "sectorLengthsKm": null,
+  "startFinish": null,
+  "pitEntry": null,
+  "pitExit": null
+}

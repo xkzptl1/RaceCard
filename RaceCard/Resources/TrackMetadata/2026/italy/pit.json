@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "italy",
+  "referencePitLossSeconds": {
+    "value": 23,
+    "sourceIds": [
+      "somersf1"
+    ],
+    "confidence": "secondary_source"
+  },
+  "pitSpeedLimitKph": null
+}

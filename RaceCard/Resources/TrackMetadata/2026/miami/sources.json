@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "miami",
+  "asOf": "2026-09-11",
+  "sources": [
+    {
+      "id": "f1_event",
+      "tier": 1,
+      "publisher": "Formula 1",
+      "title": "2026 Miami Grand Prix",
+      "url": "https://www.formula1.com/en/racing/2026/miami",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "a881786272c098ef902138aca9031ba4ce873ef2d7f1b0fcdc346d2d3fa7eb03",
+      "supports": [
+        "circuit.circuitLengthKm",
+        "circuit.raceLaps"
+      ]
+    },
+    {
+      "id": "openf1_meeting",
+      "tier": 1,
+      "publisher": "OpenF1",
+      "title": "2026 meeting identity",
+      "url": "https://api.openf1.org/v1/meetings?year=2026",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "aebdb5567e55045c0d1c14c322dc8a4d287924b05d10850cbd17922daf522198",
+      "supports": [
+        "circuit.identity"
+      ]
+    },
+    {
+      "id": "somersf1",
+      "tier": 2,
+      "publisher": "SomersF1",
+      "title": "2026 Miami Grand Prix technical journal",
+      "url": "https://somersf1.substack.com/p/2026-miami-grand-prix-tech-journal",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "secondary_source",
+      "sha256": null,
+      "supports": [
+        "pit.referencePitLossSeconds"
+      ]
+    },
+    {
+      "id": "fia_map",
+      "tier": 1,
+      "publisher": "FIA",
+      "title": "2026 miami grand prix - competition notes - circuit map pit lane drawing emergency exits map and red zone.pdf",
+      "url": "https://www.fia.com/system/files/decision-document/2026_miami_grand_prix_-_competition_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_and_red_zone.pdf",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "57e96ed983ca1cd7d951fc8485f88a93e971f93736bbaf758d49733ac791c261",
+      "supports": [
+        "circuit.geometry",
+        "circuit.sectorLengthsKm",
+        "race_zones.straightLineMode",
+        "race_zones.overtakeMode"
+      ]
+    },
+    {
+      "id": "fia_pirelli_1",
+      "tier": 1,
+      "publisher": "FIA",
+      "title": "2026 miami grand prix - competition notes - pirelli preview.pdf",
+      "url": "https://www.fia.com/system/files/decision-document/2026_miami_grand_prix_-_competition_notes_-_pirelli_preview.pdf",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "14ea0b4e40388b00f9201eafa34f41542a43a70da12989a8296b417ca0974a61",
+      "supports": [
+        "tyres.dryCompounds",
+        "tyres.minimumPressures",
+        "tyres.revisions"
+      ]
+    },
+    {
+      "id": "fia_pirelli_2",
+      "tier": 1,
+      "publisher": "FIA",
+      "title": "2026 miami grand prix - competition notes - pirelli preview v2.pdf",
+      "url": "https://www.fia.com/system/files/decision-document/2026_miami_grand_prix_-_competition_notes_-_pirelli_preview_v2.pdf",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "816316f5f8eb33212de6cf1981e6a2bece61d7dbce9b9e3e5b92cd7133352d36",
+      "supports": [
+        "tyres.dryCompounds",
+        "tyres.revisions"
+      ]
+    },
+    {
+      "id": "fia_power_unit",
+      "tier": 1,
+      "publisher": "FIA",
+      "title": "2026 miami grand prix - power unit information.pdf",
+      "url": "https://www.fia.com/system/files/decision-document/2026_miami_grand_prix_-_power_unit_information.pdf",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "d6ef54e6efab759659462e5141ffc2102cc855b13792c70eb55da6386fa3b7b9",
+      "supports": [
+        "energy.raceRechargeLimit",
+        "energy.overtakeRechargeLimit",
+        "energy.qualifyingRechargeLimit"
+      ]
+    }
+  ],
+  "notes": [
+    "Pit loss is an approximate secondary reference, not an FIA measured pit-stop time.",
+    "Geometry uses the official PDF schematic and annotation anchors, not OpenF1 car XY. Unsupported pit/start/zone endpoint coordinates remain null; the reference map never reprojects car positions speculatively.",
+    "v2.5 informational marker anchors are FIA printed label centres in the same documented PDF transform; not inferred car coordinates. Light-panel and marshal-post numbering remain distinct from timing sectors."
+  ],
+  "researchChecks": [
+    {
+      "publisher": "SomersF1",
+      "query": "site:somersf1.substack.com 2026 Miami Grand Prix tech journal document cache",
+      "result": "located",
+      "checkedAt": "2026-09-11"
+    },
+    {
+      "publisher": "FIA",
+      "url": "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14/season/season-2026-2072",
+      "result": "Published event documents inspected",
+      "checkedAt": "2026-09-11"
+    },
+    {
+      "publisher": "Formula 1",
+      "url": "https://www.formula1.com/en/racing/2026/miami",
+      "result": "Event identity, circuit length and race laps inspected",
+      "checkedAt": "2026-09-11"
+    }
+  ]
+}

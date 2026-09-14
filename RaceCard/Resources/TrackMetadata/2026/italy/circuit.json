@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "italy",
+  "identity": {
+    "value": {
+      "meetingKey": 1293,
+      "meetingName": "Italian Grand Prix",
+      "circuitName": "Monza",
+      "circuitKey": 39,
+      "dateStart": "2026-09-04T10:30:00+00:00",
+      "dateEnd": "2026-09-06T15:00:00+00:00"
+    },
+    "sourceIds": [
+      "openf1_meeting"
+    ],
+    "confidence": "official_verified"
+  },
+  "circuitLengthKm": {
+    "value": 5.793,
+    "sourceIds": [
+      "f1_event"
+    ],
+    "confidence": "official_verified"
+  },
+  "raceLaps": {
+    "value": 53,
+    "sourceIds": [
+      "f1_event"
+    ],
+    "confidence": "official_verified"
+  },
+  "sectorLengthsKm": {
+    "value": [
+      1.909,
+      1.823,
+      2.061
+    ],
+    "sourceIds": [
+      "fia_map"
+    ],
+    "confidence": "official_verified"
+  },
+  "startFinish": {
+    "value": {
+      "x": 0.237793,
+      "y": 0.755734
+    },
+    "sourceIds": [
+      "fia_map"
+    ],
+    "confidence": "official_verified"
+  },
+  "pitEntry": null,
+  "pitExit": null
+}

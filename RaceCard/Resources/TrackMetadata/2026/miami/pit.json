@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "miami",
+  "referencePitLossSeconds": {
+    "value": 20.5,
+    "sourceIds": [
+      "somersf1"
+    ],
+    "confidence": "secondary_source"
+  },
+  "pitSpeedLimitKph": null
+}

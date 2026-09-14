@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "monaco",
+  "straightLineMode": {
+    "value": {
+      "enabled": false,
+      "normalGripActivations": [],
+      "lowGripActivations": []
+    },
+    "sourceIds": [
+      "fia_map"
+    ],
+    "confidence": "official_verified"
+  },
+  "overtakeMode": {
+    "value": {
+      "detection": "80m after T16",
+      "activation": "40m after T18"
+    },
+    "sourceIds": [
+      "fia_map"
+    ],
+    "confidence": "official_verified"
+  },
+  "drsLegacy": null
+}

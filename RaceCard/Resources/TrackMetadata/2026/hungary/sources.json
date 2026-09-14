@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "hungary",
+  "asOf": "2026-09-11",
+  "sources": [
+    {
+      "id": "f1_event",
+      "tier": 1,
+      "publisher": "Formula 1",
+      "title": "2026 Hungarian Grand Prix",
+      "url": "https://www.formula1.com/en/racing/2026/hungary",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "91c490bc81eb6a999fc2154a21f73e50a75fdb4ddcc555b250f3ed9318641391",
+      "supports": [
+        "circuit.circuitLengthKm",
+        "circuit.raceLaps"
+      ]
+    },
+    {
+      "id": "openf1_meeting",
+      "tier": 1,
+      "publisher": "OpenF1",
+      "title": "2026 meeting identity",
+      "url": "https://api.openf1.org/v1/meetings?year=2026",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "aebdb5567e55045c0d1c14c322dc8a4d287924b05d10850cbd17922daf522198",
+      "supports": [
+        "circuit.identity"
+      ]
+    },
+    {
+      "id": "somersf1",
+      "tier": 2,
+      "publisher": "SomersF1",
+      "title": "2026 Hungarian Grand Prix technical journal",
+      "url": "https://somersf1.substack.com/p/2026-hungarian-grand-prix-tech-journal",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "secondary_source",
+      "sha256": null,
+      "supports": [
+        "pit.referencePitLossSeconds"
+      ]
+    },
+    {
+      "id": "fia_map",
+      "tier": 1,
+      "publisher": "FIA",
+      "title": "2026 hungarian grand prix - competition notes - circuit map pit lane drawing emergency exits map and red zone.pdf",
+      "url": "https://www.fia.com/system/files/decision-document/2026_hungarian_grand_prix_-_competition_notes_-_circuit_map_pit_lane_drawing_emergency_exits_map_and_red_zone.pdf",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "9e0d7e4c730b3572d36f2b7f5552fa9607ba808cfc4b9dca2f4a2523405b8a63",
+      "supports": [
+        "circuit.geometry",
+        "circuit.sectorLengthsKm",
+        "race_zones.straightLineMode",
+        "race_zones.overtakeMode"
+      ]
+    },
+    {
+      "id": "fia_pirelli_1",
+      "tier": 1,
+      "publisher": "FIA",
+      "title": "2026 hungarian grand prix - competition notes - pirelli preview.pdf",
+      "url": "https://www.fia.com/system/files/decision-document/2026_hungarian_grand_prix_-_competition_notes_-_pirelli_preview.pdf",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "61c6c9251b22645040ea09cbd331bf71e1502e655ddfa531da362282b8c5ce16",
+      "supports": [
+        "tyres.dryCompounds",
+        "tyres.minimumPressures",
+        "tyres.revisions"
+      ]
+    },
+    {
+      "id": "fia_power_unit",
+      "tier": 1,
+      "publisher": "FIA",
+      "title": "2026 hungarian grand prix - power unit information.pdf",
+      "url": "https://www.fia.com/system/files/decision-document/2026_hungarian_grand_prix_-_power_unit_information.pdf",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "e820748c1179ee3317932e31228821b81455537e8b289434815f331a9bc6573a",
+      "supports": [
+        "energy.raceRechargeLimit",
+        "energy.overtakeRechargeLimit",
+        "energy.qualifyingRechargeLimit"
+      ]
+    }
+  ],
+  "notes": [
+    "SomersF1 reports conflicting Pirelli graphics (rear 24.5 versus FIA 23 psi); FIA prescription takes precedence.",
+    "Pit loss is an approximate secondary reference, not an FIA measured pit-stop time.",
+    "Geometry uses the official PDF schematic and annotation anchors, not OpenF1 car XY. Unsupported pit/start/zone endpoint coordinates remain null; the reference map never reprojects car positions speculatively.",
+    "v2.5 informational marker anchors are FIA printed label centres in the same documented PDF transform; not inferred car coordinates. Light-panel and marshal-post numbering remain distinct from timing sectors."
+  ],
+  "researchChecks": [
+    {
+      "publisher": "SomersF1",
+      "query": "site:somersf1.substack.com 2026 Hungarian Grand Prix tech journal document cache",
+      "result": "located",
+      "checkedAt": "2026-09-11"
+    },
+    {
+      "publisher": "FIA",
+      "url": "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14/season/season-2026-2072",
+      "result": "Published event documents inspected",
+      "checkedAt": "2026-09-11"
+    },
+    {
+      "publisher": "Formula 1",
+      "url": "https://www.formula1.com/en/racing/2026/hungary",
+      "result": "Event identity, circuit length and race laps inspected",
+      "checkedAt": "2026-09-11"
+    }
+  ]
+}

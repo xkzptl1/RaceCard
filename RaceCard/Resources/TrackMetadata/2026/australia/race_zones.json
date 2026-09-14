@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "australia",
+  "straightLineMode": {
+    "value": {
+      "enabled": true,
+      "normalGripActivations": [
+        {
+          "label": "A1",
+          "description": "50m after T14"
+        },
+        {
+          "label": "A2",
+          "description": "20m after T2"
+        },
+        {
+          "label": "A3",
+          "description": "85m after T5"
+        },
+        {
+          "label": "A4",
+          "description": "35m after T8"
+        },
+        {
+          "label": "A5",
+          "description": "60m after T10"
+        }
+      ],
+      "lowGripActivations": [
+        {
+          "label": "A1",
+          "description": "100m after T14"
+        },
+        {
+          "label": "A2",
+          "description": "45m after T2"
+        },
+        {
+          "label": "A3",
+          "description": "125m after T5"
+        }
+      ]
+    },
+    "sourceIds": [
+      "fia_map"
+    ],
+    "confidence": "official_verified"
+  },
+  "overtakeMode": {
+    "value": {
+      "detection": "15m after T13",
+      "activation": "Entry T14"
+    },
+    "sourceIds": [
+      "fia_map"
+    ],
+    "confidence": "official_verified"
+  },
+  "drsLegacy": null
+}

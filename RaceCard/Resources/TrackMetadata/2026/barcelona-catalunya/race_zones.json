@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "barcelona-catalunya",
+  "straightLineMode": {
+    "value": {
+      "enabled": true,
+      "normalGripActivations": [
+        {
+          "label": "A1",
+          "description": "45m after T14"
+        },
+        {
+          "label": "A2",
+          "description": "40m before T3 exit"
+        },
+        {
+          "label": "A3",
+          "description": "90m after T5"
+        },
+        {
+          "label": "A4",
+          "description": "40m after T9"
+        }
+      ],
+      "lowGripActivations": [
+        {
+          "label": "A1",
+          "description": "85m after T14"
+        },
+        {
+          "label": "A2",
+          "description": "T3 exit"
+        },
+        {
+          "label": "A3",
+          "description": "90m after T5"
+        },
+        {
+          "label": "A4",
+          "description": "90m after T9"
+        }
+      ]
+    },
+    "sourceIds": [
+      "fia_map"
+    ],
+    "confidence": "official_verified"
+  },
+  "overtakeMode": {
+    "value": {
+      "detection": "Apex T13",
+      "activation": "Entry T14"
+    },
+    "sourceIds": [
+      "fia_map"
+    ],
+    "confidence": "official_verified"
+  },
+  "drsLegacy": null
+}

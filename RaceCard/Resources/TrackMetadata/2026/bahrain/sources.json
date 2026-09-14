@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "bahrain",
+  "asOf": "2026-09-11",
+  "sources": [
+    {
+      "id": "f1_event",
+      "tier": 1,
+      "publisher": "Formula 1",
+      "title": "2026 Bahrain Grand Prix",
+      "url": "https://www.formula1.com/en/racing/2026/bahrain",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "35451ccd710bfc1257483d5609d4fc499d37b33721277152c74b642c7deb5602",
+      "supports": [
+        "circuit.circuitLengthKm",
+        "circuit.raceLaps"
+      ]
+    },
+    {
+      "id": "openf1_meeting",
+      "tier": 1,
+      "publisher": "OpenF1",
+      "title": "2026 meeting identity",
+      "url": "https://api.openf1.org/v1/meetings?year=2026",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "aebdb5567e55045c0d1c14c322dc8a4d287924b05d10850cbd17922daf522198",
+      "supports": [
+        "circuit.identity"
+      ]
+    },
+    {
+      "id": "somersf1",
+      "tier": 2,
+      "publisher": "SomersF1",
+      "title": "Tyre selections for Baku, Sepang and Singapore",
+      "url": "https://somersf1.substack.com/p/pirelli-get-2027-tyre-testing-underway",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "secondary_source",
+      "sha256": null,
+      "supports": []
+    },
+    {
+      "id": "f1_outline",
+      "tier": 1,
+      "publisher": "Formula 1",
+      "title": "2026 official circuit outline",
+      "url": "https://media.formula1.com/image/upload/c_lfill,w_3392/v1740000001/common/f1/2026/track/2026trackkualalumpurblackoutline.svg",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": "e4df6c74a5d19120e9f9865eb335f0687be8a4bfa28c9ea3e870632df1573619",
+      "supports": [
+        "circuit.geometry"
+      ]
+    },
+    {
+      "id": "pirelli_allocation",
+      "tier": 1,
+      "publisher": "Pirelli",
+      "title": "Tyre compound selections for Baku, Sepang and Singapore",
+      "url": "https://press.pirelli.com/tyre-compound-selections-for-baku-sepang-and-singapore/",
+      "retrievedAt": "2026-09-11T10:33:10Z",
+      "confidence": "official_verified",
+      "sha256": null,
+      "supports": [
+        "tyres.dryCompounds"
+      ]
+    }
+  ],
+  "notes": [
+    "SomersF1 reports C2/C3/C5; Pirelli official release specifies C2/C3/C4. This event is Sepang, not the cancelled April Sakhir event.",
+    "Weekend FIA technical documents were not published in the 2026 document index at research time. No prior-year pressures, energy, zones or pit limits were substituted."
+  ],
+  "researchChecks": [
+    {
+      "publisher": "SomersF1",
+      "query": "site:somersf1.substack.com 2026 Bahrain Grand Prix tech journal document cache",
+      "result": "located",
+      "checkedAt": "2026-09-11"
+    },
+    {
+      "publisher": "FIA",
+      "url": "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14/season/season-2026-2072",
+      "result": "Event documents not yet in current season index",
+      "checkedAt": "2026-09-11"
+    },
+    {
+      "publisher": "Formula 1",
+      "url": "https://www.formula1.com/en/racing/2026/bahrain",
+      "result": "Event identity, circuit length and race laps inspected",
+      "checkedAt": "2026-09-11"
+    }
+  ]
+}

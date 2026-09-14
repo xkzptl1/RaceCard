@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "singapore",
+  "identity": {
+    "value": {
+      "meetingKey": 1296,
+      "meetingName": "Singapore Grand Prix",
+      "circuitName": "Singapore",
+      "circuitKey": 61,
+      "dateStart": "2026-10-09T08:30:00+00:00",
+      "dateEnd": "2026-10-11T14:00:00+00:00"
+    },
+    "sourceIds": [
+      "openf1_meeting"
+    ],
+    "confidence": "official_verified"
+  },
+  "circuitLengthKm": {
+    "value": 4.927,
+    "sourceIds": [
+      "f1_event"
+    ],
+    "confidence": "official_verified"
+  },
+  "raceLaps": {
+    "value": 62,
+    "sourceIds": [
+      "f1_event"
+    ],
+    "confidence": "official_verified"
+  },
+  "sectorLengthsKm": null,
+  "startFinish": null,
+  "pitEntry": null,
+  "pitExit": null
+}

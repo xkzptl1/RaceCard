@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "canada",
+  "dryCompounds": {
+    "value": [
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "sourceIds": [
+      "fia_pirelli_1"
+    ],
+    "confidence": "official_verified"
+  },
+  "minimumPressures": {
+    "value": {
+      "frontPsi": 25.5,
+      "rearPsi": 26.0
+    },
+    "sourceIds": [
+      "fia_pirelli_1"
+    ],
+    "confidence": "official_verified"
+  },
+  "revisions": [
+    {
+      "value": {
+        "frontPsi": 25.5,
+        "rearPsi": 26.0,
+        "publishedAtLocal": "2026-05-20T15:29:00",
+        "effectiveFrom": null
+      },
+      "sourceIds": [
+        "fia_pirelli_1"
+      ],
+      "confidence": "official_verified"
+    }
+  ]
+}

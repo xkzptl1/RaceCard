@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "eventKey": "united-states",
+  "identity": {
+    "value": {
+      "meetingKey": 1297,
+      "meetingName": "United States Grand Prix",
+      "circuitName": "Austin",
+      "circuitKey": 9,
+      "dateStart": "2026-10-23T17:30:00+00:00",
+      "dateEnd": "2026-10-25T22:00:00+00:00"
+    },
+    "sourceIds": [
+      "openf1_meeting"
+    ],
+    "confidence": "official_verified"
+  },
+  "circuitLengthKm": {
+    "value": 5.513,
+    "sourceIds": [
+      "f1_event"
+    ],
+    "confidence": "official_verified"
+  },
+  "raceLaps": {
+    "value": 56,
+    "sourceIds": [
+      "f1_event"
+    ],
+    "confidence": "official_verified"
+  },
+  "sectorLengthsKm": null,
+  "startFinish": null,
+  "pitEntry": null,
+  "pitExit": null
+}
